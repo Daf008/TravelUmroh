@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Mabrur Travel - Paket Umroh Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar glass-card">
+                <a href="#" class="logo">
+                    <i class="fas fa-kaaba"></i>
+                    <span>Al-Mabrur Travel</span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#packages">Paket Umroh</a>
+                    <a href="#features">Keunggulan</a>
+                    <a href="#testimonials">Testimoni</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <a href="#contact" class="btn btn-primary">Konsultasi Gratis</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="glass-card hero-card">
+                <h1>Perjalanan Umroh <span>Penuh Berkah</span> dengan Layanan Premium</h1>
+                <p>Al-Mabrur Travel menyediakan paket umroh lengkap dengan akomodasi terbaik, bimbingan ibadah, dan kenyamanan perjalanan. Jadikan momen spiritual Anda tak terlupakan.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#packages" class="btn btn-primary btn-pulse">Lihat Paket Umroh</a>
+                    <button id="consultBtn" class="btn btn-secondary">Konsultasi Gratis</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Keunggulan Layanan Kami</h2>
+            
+            <div class="features-grid">
+                <div class="glass-card feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Akomodasi Premium</h3>
+                    <p>Hotel bintang 5 dekat Masjidil Haram dan Masjid Nabawi dengan fasilitas lengkap untuk kenyamanan ibadah Anda.</p>
+                </div>
+                
+                <div class="glass-card feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Pembimbing Ibadah</h3>
+                    <p>Dibimbing oleh ustadz berpengalaman yang akan mendampingi dan membimbing selama pelaksanaan ibadah umroh.</p>
+                </div>
+                
+                <div class="glass-card feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Katering Sehat</h3>
+                    <p>Menu makanan sehat dan halal dengan variasi menu Indonesia dan Arab selama perjalanan ibadah.</p>
+                </div>
+                
+                <div class="glass-card feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Asuransi Perjalanan</h3>
+                    <p>Asuransi perjalanan lengkap yang memberikan perlindungan maksimal selama Anda beribadah di tanah suci.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">Paket Umroh Pilihan</h2>
+            
+            <div class="packages-grid">
+                <!-- Paket Ekonomi -->
+                <div class="glass-card package-card">
+                    <div class="package-header">
+                        <h3>Paket Ekonomi</h3>
+                        <div class="package-price">Rp 32 Jt</div>
+                        <div class="package-duration">12 Hari</div>
+                    </div>
+                    
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Hotel bintang 3</li>
+                            <li><i class="fas fa-check"></i> Tiket pesawat pulang-pergi</li>
+                            <li><i class="fas fa-check"></i> Transportasi selama di Arab Saudi</li>
+                            <li><i class="fas fa-check"></i> Makan 3x sehari</li>
+                            <li><i class="fas fa-check"></i> Pembimbing ibadah</li>
+                        </ul>
+                        
+                        <button class="btn btn-outline w-100 package-select" data-package="Ekonomi">Pilih Paket Ini</button>
+                    </div>
+                </div>
+                
+                <!-- Paket Premium -->
+                <div class="glass-card package-card popular-package">
+                    <div class="package-header">
+                        <div class="package-popular">POPULER</div>
+                        <h3>Paket Premium</h3>
+                        <div class="package-price">Rp 45 Jt</div>
+                        <div class="package-duration">12 Hari</div>
+                    </div>
+                    
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Hotel bintang 5</li>
+                            <li><i class="fas fa-check"></i> Tiket pesawat pulang-pergi</li>
+                            <li><i class="fas fa-check"></i> Transportasi VIP</li>
+                            <li><i class="fas fa-check"></i> Makan 3x sehari + buffet</li>
+                            <li><i class="fas fa-check"></i> Pembimbing ibadah berpengalaman</li>
+                            <li><i class="fas fa-check"></i> City tour Mekah & Madinah</li>
+                        </ul>
+                        
+                        <button class="btn btn-primary w-100 btn-pulse package-select" data-package="Premium">Pilih Paket Ini</button>
+                    </div>
+                </div>
+                
+                <!-- Paket VIP -->
+                <div class="glass-card package-card">
+                    <div class="package-header">
+                        <h3>Paket VIP</h3>
+                        <div class="package-price">Rp 65 Jt</div>
+                        <div class="package-duration">14 Hari</div>
+                    </div>
+                    
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Hotel bintang 5 dekat Masjidil Haram</li>
+                            <li><i class="fas fa-check"></i> Tiket pesawat kelas bisnis</li>
+                            <li><i class="fas fa-check"></i> Transportasi pribadi</li>
+                            <li><i class="fas fa-check"></i> Makan di restaurant premium</li>
+                            <li><i class="fas fa-check"></i> Pembimbing ibadah khusus</li>
+                            <li><i class="fas fa-check"></i> Tour lengkap Mekah & Madinah</li>
+                            <li><i class="fas fa-check"></i> Manasik lengkap sebelum berangkat</li>
+                        </ul>
+                        
+                        <button class="btn btn-outline w-100 package-select" data-package="VIP">Pilih Paket Ini</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="packages-actions">
+                <button id="compareBtn" class="btn btn-accent">
+                    <i class="fas fa-chart-bar"></i> Bandingkan Paket
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimoni Jemaah</h2>
+            
+            <div class="testimonial-slider">
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-text">
+                        Alhamdulillah perjalanan umroh bersama Al-Mabrur Travel sangat memuaskan. Pelayanan dari keberangkatan sampai kepulangan sangat profesional. Pembimbing ibadahnya juga sangat sabar membimbing kami.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ahmad Santoso</h4>
+                            <p>Jemaah Umroh, Januari 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-text">
+                        Hotelnya sangat nyaman dan dekat dengan Masjidil Haram. Makanannya juga sesuai dengan selera Indonesia. Pelayanannya membuat kami merasa seperti keluarga sendiri.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Fatimah Zahra</h4>
+                            <p>Jemaah Umroh, Maret 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-text">
+                        Untuk pertama kalinya umroh, saya merasa sangat terbantu dengan bimbingan ustadz yang sangat sabar. Semua diatur dengan sangat rapi sehingga kami bisa fokus beribadah.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Budi Raharjo</h4>
+                            <p>Jemaah Umroh, Februari 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button id="prevTestimonial" class="btn btn-outline"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextTestimonial" class="btn btn-outline"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Konsultasi Gratis</h2>
+            
+            <div class="contact-container">
+                <div class="glass-card contact-form">
+                    <h3>Formulir Konsultasi</h3>
+                    <form id="consultationForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Nomor WhatsApp" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>Pilih Paket yang Diminati</option>
+                                <option value="ekonomi">Paket Ekonomi (Rp 32 Jt)</option>
+                                <option value="premium">Paket Premium (Rp 45 Jt)</option>
+                                <option value="vip">Paket VIP (Rp 65 Jt)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Pertanyaan atau pesan tambahan"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-paper-plane"></i> Kirim Permintaan Konsultasi
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="glass-card contact-info">
+                    <h3>Informasi Kontak</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Kantor Pusat</h4>
+                            <p>Jl. Kebon Jeruk Raya No. 123, Jakarta Barat</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon/WhatsApp</h4>
+                            <p>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@almabrutravel.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 08:00 - 17:00 WIB</p>
+                            <p>Sabtu: 08:00 - 14:00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Al-Mabrur Travel</div>
+                    <p>Perjalanan umroh penuh berkah dengan pelayanan terbaik. Mengutamakan kenyamanan dan kekhusyukan ibadah Anda.</p>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#packages">Paket Umroh</a></li>
+                        <li><a href="#features">Keunggulan</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Kebon Jeruk Raya No. 123, Jakarta Barat</p>
+                    <p><i class="fas fa-phone-alt"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@almabrutravel.com</p>
+                    <p><i class="fas fa-clock"></i> Senin - Jumat: 08:00 - 17:00 WIB</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Al-Mabrur Travel. Semua hak dilindungi. | Lisensi No: 123/DPU/UMROH/VI/2024</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modal untuk paket -->
+    <div id="packageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle">Booking Paket Umroh</h2>
+            <div id="modalContent">
+                <!-- Konten akan diisi JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
